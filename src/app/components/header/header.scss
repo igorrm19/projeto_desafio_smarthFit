@@ -9,6 +9,23 @@ header {
   gap: 32px;
 }
 
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(73, 74, 16);
+}
+
+img{
+  background-image: url("../../../assets/Smart_Fit_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 150px;
+  border: none;
+}
+
 header .logo-container {
   background: black;
   padding: 24px;
